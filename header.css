@@ -1,0 +1,61 @@
+.header{
+    position:relative;
+    top: 3em;
+}
+
+.header__figure{
+    width: inherit;
+}
+
+.header__img--1 {
+    width: 98.75vw;
+}
+
+.header__img--2 {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    width: 35vw;
+    padding: 2em;
+    border: dashed var(--light_yellow);
+}
+
+.header__div {
+    color: var(--white);
+    background-color: var(--black);
+    border: double 5px var(--celeste);
+    width: 50vw;
+    height: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 34vw;
+    left: 25vw;
+}
+
+.header__h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif serif;
+    font-size: 4vw;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+@media screen and (max-width: 400px) {
+    .header__div{
+        width: 80vw;
+        left: 10vw;
+    }
+
+    .header__h1{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .header__h1{
+        font-size: 14px;
+    }
+}

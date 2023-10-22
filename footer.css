@@ -1,0 +1,97 @@
+.footer {
+    width: initial;
+    background-color: lightblue;
+}
+
+.footer__section {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8em;
+    padding: 20px ;
+    position:relative;
+}
+
+.footer__img {
+    width: 250px;
+}
+
+.footer__text{
+    background-color: var(--light_yellow);
+    padding: 1em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    color: black;
+    width: 400px;
+}
+
+.footer__h3 {
+    font-size: 30px;
+    font-family: 'Kalam', cursive;
+}
+
+.footer__p {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+.red__social {
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.red__social img{
+    width: 30px;
+}
+
+.footer__img--lovePets{
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.copy {
+    width: inherit;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (max-width:1100px) {
+    .footer__section {
+        justify-content:space-around;
+        gap: 2em
+    }
+}
+
+@media screen and (max-width:900px) {
+    .footer__red {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .red__social{
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .footer__h3{
+        font-size: 25px;
+    }
+
+    .footer__p{
+        font-size: 15px;
+    }
+    
+}
+
+
